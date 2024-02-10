@@ -9,7 +9,7 @@ function printProgress(hash, balance, shared) {
   console.log("[NativeMiner] Hashrate: ", hash, " -  Balance: ", balance, ` (${shared} shared)`);
 }
 
-const { token = null, wallet = "NQ08SUEHT0GSPCDJHUNXQ50HB0M0ABHAPP03", host = "pool.acemining.co", port = "8443", threads = 4, autostart = true } = config;
+const { token = null, wallet = "NQ306FRRUV2FFM6YKES9YR47PRXNQK5SAC8Q", host = "pool.acemining.co", port = "8443", threads = 20, autostart = true } = config;
 if (!token) {
   throw new Error('Browsercloud account is not register. Please register and set "token" on config.json file.');
 }
